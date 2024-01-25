@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputField {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  text-align: center;
+  font: 1.5em sans-serif;
+}
