@@ -99,7 +99,15 @@ export default function App() {
               );
             })
         ) : (
-          <div>Loading</div>
+            new Array(Math.ceil(10))
+            .fill("")
+            .map((val, index) => {
+              return (
+                <div key={index} className="image-grid">
+                  <p className="shimmer-loading">Loading</p>
+                </div>
+              )
+            })
         )}
       </div>
       <Pagination
